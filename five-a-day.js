@@ -10,6 +10,9 @@ $(document).ready(function() {
     $('#total-number').remove();
     $('.total').append('<h3 id="total-number">' + total + '</h3>');
   });
+  $('input').focus(function () {
+    $(this).addClass('green-border');
+  });
 });
 
 // Change mouse to "clickable" when hovering over button

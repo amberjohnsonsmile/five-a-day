@@ -83,23 +83,6 @@ input {
 	font-size: 30px;
 }
 
-h3 {
-  font-size: 40px;
-}
-
-.list {
-  /* fix number alignment issue */
-	text-align: left;
-	margin: 10% 20%;
-	background: #e3fce6;
-	font-size: 30px;
-	border-radius: 8px;
-}
-
-li {
-	padding: 5%;
-}
-
 /* Style add button */
 #button {
 	background: #e3fce6;
@@ -110,14 +93,31 @@ li {
 	color: black;
 }
 
+h3 {
+  font-size: 40px;
+}
+
+.list {
+  /* fix number alignment issue */
+	text-align: left;
+	margin: 2% 30%;
+	background: #e3fce6;
+	font-size: 30px;
+	border-radius: 8px;
+}
+
+li {
+	padding: 0.5em;
+}
+
+.green-border {
+	outline-color: #e3fce6;
+}
+
 /* Clear input after adding */
 /* Box around total, font */
-/* Button styling */
 /* Color input box */
-/* List styling */
 /* Make able to press ENTER instead of pushing button (jQuery?) */
-/* Change .list background color and fix margins */
-/* Choose input color styles */
-/* Increase letter spacing */
+/* Message when you get to five */
 
 /* Should I put the list on the L and total on the R? */
