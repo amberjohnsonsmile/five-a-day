@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Five-a-day fruit and vegetable counter using JavaScript -->
+<html>
+<head>
+  <title>5 a Day!</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="five-a-day.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="five-a-day.js"></script>
+</head>
+<body>
+  <h1>Five-a-Day Fruit and Vegetable Counter</h1>
+  <h2>Enter the fruits and vegetables you've eaten today!</h2>
+  <!-- input field for fruits and veggies -->
+  <div class="enter">
+    <form name="servings-input">
+      <input type = "text" name="serving">
+    </form>
+    <div id="button">Add</div>
+  </div>
+  <br/>
+  <!-- populating list -->
+  <ol class="list">
+  </ol>
+  <!-- total with updating number -->
+  <div class="total">
+    <h2>Total:</h2>
+    <h3 id="total-number">0</h3>
+  </div>
+</body>
+</html>
+
+<!-- I want to add the date at the top - can I have that auto update? -->
