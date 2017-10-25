@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-/*ol, */ul {
+/*ol,*/ ul {
 	list-style: none;
 }
 blockquote, q {
@@ -50,7 +50,6 @@ table {
 }
 
 /* My code starts here */
-
 body {
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -63,8 +62,15 @@ h1, h2, li, input, #button, h3 {
 h1 {
   color: green;
 	margin: 5%;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	font-size: 50px;
+}
+
+.date {
+	font-family: 'Amatic SC', cursive;
+	text-align: right;
+	margin: 1em 1em auto auto;
+	font-size: 30px;
 }
 
 h2 {
@@ -98,7 +104,6 @@ h3 {
 }
 
 .list {
-  /* fix number alignment issue */
 	text-align: left;
 	margin: 2% 30%;
 	background: #e3fce6;
@@ -108,15 +113,25 @@ h3 {
 
 li {
 	padding: 0.5em;
+	margin-left: 20%;
+}
+
+.total {
+	margin-top: 2em;
 }
 
 .green-border {
 	outline-color: #e3fce6;
 }
 
-/* Clear input after adding */
+.enter h2 {
+	color: green;
+	margin-top: 1.5em;
+	margin-bottom: -0.5em;
+	font-weight: 600;
+}
+
 /* Box around total, font */
-/* Color input box */
 /* Make able to press ENTER instead of pushing button (jQuery?) */
 /* Message when you get to five */
 
