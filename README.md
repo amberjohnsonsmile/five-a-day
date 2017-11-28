@@ -7,4 +7,5 @@ The five-a-day counter will help you track your daily servings of fruits and veg
 Potential new features:
 
 -Save daily progress
+
 -Compare with other users
